@@ -19,7 +19,7 @@
 ```python
 class GeorgeLiao:
     school    = "Brown University"
-    interests = ["physics-informed ML", "GPU performance", "RL", "systems"]
+    interests = ["DL", "GPU performance", "RL", "systems"]
     stack     = ["Python", "PyTorch", "C/C++", "CUDA", "Go", "TypeScript", "Next.js"]
     summer_26 = "Google Summer of Code with ML4SCI"
     tetris    = "bad at it, so i trained a robot to do it for me"
