@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=230&section=header&text=George%20Liao&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=34&desc=Physics%20%2B%20ML%20%2B%20systems&descAlignY=56&descSize=20" width="100%" alt="George Liao" />
+<img src="assets/black-hole-banner.svg" width="100%" alt="George Liao. An animated black hole with a glowing accretion disk." />
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=true&width=700&height=45&lines=Physics-informed+neural+networks;GPU+kernels+and+eBPF+tracing;Teaching+a+robot+to+play+Tetris" alt="Physics-informed neural networks, GPU kernels and eBPF tracing, teaching a robot to play Tetris" />
