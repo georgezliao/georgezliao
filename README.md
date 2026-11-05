@@ -14,7 +14,7 @@
 
 ---
 
-## `> whoami`
+## `> Who is George?`
 
 ```python
 class GeorgeLiao:
