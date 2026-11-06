@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/black-hole-banner.svg" width="100%" alt="George Liao. An animated black hole with a glowing accretion disk." />
+<img src="assets/black-hole-banner.svg" width="100%" alt="George Liao. A black hole with a glowing accretion disk." />
 
 [![GSoC write-up](https://img.shields.io/badge/GSoC_2026-Write--up-1f6feb?style=for-the-badge&logo=google&logoColor=white)](https://github.com/ML4SCI/SPINN) [![SkyPrint](https://img.shields.io/badge/SkyPrint-Live_site-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://www.skyprint.photo/)
 
