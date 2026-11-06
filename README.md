@@ -2,12 +2,6 @@
 
 <img src="assets/black-hole-banner.svg" width="100%" alt="George Liao. An animated black hole with a glowing accretion disk." />
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=true&width=700&height=45&lines=Physics-informed+neural+networks;GPU+kernels+and+eBPF+tracing;Teaching+a+robot+to+play+Tetris" alt="" />
-</a>
-
-<br/>
-
 [![GSoC write-up](https://img.shields.io/badge/GSoC_2026-Write--up-1f6feb?style=for-the-badge&logo=google&logoColor=white)](https://github.com/ML4SCI/SPINN) [![SkyPrint](https://img.shields.io/badge/SkyPrint-Live_site-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://www.skyprint.photo/)
 
 </div>
