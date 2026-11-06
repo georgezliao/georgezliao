@@ -134,6 +134,17 @@ Shows the climate impact of flights, including contrails, using CoCiP contrail m
 
 </td>
 </tr>
+<tr>
+<td colspan="2" valign="top">
+
+**[Java Trading Engine](https://github.com/georgezliao/Java-Trading-Engine)**
+<br/><br/>
+A limit order book and tail-latency harness in Java. An allocation-free hot path and a lock-free SPSC ring took p99 from 10.0 µs to 0.5 µs at 1M msg/s, and every variant has to produce the same output hash as the baseline.
+
+`Java` `Low latency` `JMH`
+
+</td>
+</tr>
 </table>
 
 ---
