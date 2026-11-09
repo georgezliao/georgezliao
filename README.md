@@ -44,7 +44,7 @@ class GeorgeLiao:
 </td>
 <td>
 
-- **GSoC 2026** with ML4SCI, on electrode shape optimization for an ion trap
+- **GSoC 2026** with ML4SCI, on electrode shape optimization for ion traps
 - **16.2×** lower field nonlinearity than an optimized circular reference on that project
 - **TraceLens**, per-process syscall and run-queue latency from eBPF
 - **SkyPrint**, a live contrail and aviation climate site
@@ -70,7 +70,7 @@ class GeorgeLiao:
 │  >  Hieroglyph Segmentation for Brown's Digital Pyramids Project│
 │  >  An Adaptive Data Structure Optimizer                        │
 │  >  Finding new and interesting papers to replicate!            │
-│                                                                 │
+│  >  Trying to survive math & physics classes                    │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
@@ -84,7 +84,7 @@ class GeorgeLiao:
 
 **[SPINN: Ion Trap Shape Optimization](https://github.com/ML4SCI/SPINN)**
 <br/><br/>
-A summer spent trying to make a PINN redesign Paul trap electrodes. The first optimizer improved its own score without improving the physics, so the write-up covers what a trustworthy shape gradient and an independent design check actually need.
+A summer spent trying to make a PINN redesign Paul trap electrodes. PINNs are notoriously finicky to differentiate real improvements from improvement achieved via cheating. The README should document how I dealt with that. Research is still ongoing!
 
 `PINNs` `PDEs` `GSoC`
 
@@ -93,7 +93,7 @@ A summer spent trying to make a PINN redesign Paul trap electrodes. The first op
 
 **[TraceLens](https://github.com/georgezliao/eBPF-Agent)**
 <br/><br/>
-A Linux eBPF tool that shows how long syscalls take and how long threads wait for a CPU, per process. Latency histograms stay in the kernel, and individual calls are streamed for one process at a time.
+A Linux eBPF tool that shows how long syscalls take and how long threads wait for a CPU, per process. The latency histograms stay in the kernel, and individual calls are streamed for one process at a time.
 
 `Go` `C` `eBPF`
 
@@ -113,7 +113,7 @@ Profiles the graph traversal, tensor materialization and kernel-launch costs of 
 
 **[RL Robot Tetris](https://github.com/georgezliao/rl-robot-tetris)**
 <br/><br/>
-Compares agents that learn from rendered UI pixels with agents that get engineered state, along with reward shaping, action spaces, and search baselines like beam search and MCTS.
+Compares agents that learn from rendered UI pixels with agents that get engineered state, along with reward shaping, action spaces, and search baselines like beam search and MCTS. Motivation is to learn more about RL environments and different reward systems.
 
 `Python` `RL` `CNNs`
 
