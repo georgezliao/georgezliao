@@ -63,8 +63,13 @@ class GeorgeLiao:
 │                                                                 │
 │  >  RL agents for Tetris: rendered pixels vs engineered state   │
 │  >  TraceLens: finding out where a Linux process loses time     │
-│  >  Deep-ML: machine learning problems, solved by hand          │
+│  >  CUDA Optimization for both Options Pricing and PINNs        │
 │  >  CSCI 2470 work at Brown: deep learning projects             │
+│  >  LLM alpha crowding research                                 │
+│  >  Java Trading Engine                                         │
+│  >  Hieroglyph Segmentation for Brown's Digital Pyramids Project│
+│  >  An Adaptive Data Structure Optimizer                        │
+│  >  Finding new and interesting papers to replicate!            │
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
