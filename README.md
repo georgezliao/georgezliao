@@ -40,8 +40,6 @@ impact incl. contrails) · [gravitational lensing PINNs](https://github.com/geor
 (multi-agent market sim, public-data observer) · [RL Tetris](https://github.com/georgezliao/rl-robot-tetris)
 (no learned policy has beaten the baselines yet)
 
-[resume] · [email]
----
 
 ## Tech Stack
 
