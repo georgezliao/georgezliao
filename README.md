@@ -6,122 +6,40 @@
 
 ---
 
-## `> Who is George?`
+# George Liao
 
-```python
-class GeorgeLiao:
-    school    = "Brown University"
-    interests = ["DL", "GPU performance", "RL", "systems"]
-    stack     = ["Python", "PyTorch", "C/C++", "CUDA", "Go", "TypeScript", "Next.js"]
-    summer_26 = "Google Summer of Code with ML4SCI"
-```
-
-<br/>
-
-<div align="center">
-<table>
-<tr>
-<td align="center" width="50%">
-
-
-
-
-## What I'm Building Now
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                                                                 │
-│  >  RL agents for Tetris: rendered pixels vs engineered state   │
-│  >  TraceLens: finding out where a Linux process loses time     │
-│  >  CUDA Optimization for both Options Pricing and PINNs        │
-│  >  CSCI 2470 work at Brown: deep learning projects             │
-│  >  LLM alpha crowding research                                 │
-│  >  Java Trading Engine                                         │
-│  >  Hieroglyph Segmentation for Brown's Digital Pyramids Project│
-│  >  An Adaptive Data Structure Optimizer                        │
-│  >  Finding new and interesting papers to replicate!            │
-│  >  Trying to survive math & physics classes                    │
-└─────────────────────────────────────────────────────────────────┘
-```
+Brown University. GSoC 2026 with ML4SCI. [Google team matching — confirm]
 
 ---
 
-## Featured Projects
+### [Fused CUDA kernels for higher-order autodiff](https://github.com/georgezliao/Expanded-GPU-Optimization)
+One fused kernel replaces the 94-launch autograd path for a PINN residual:
+0.131 ms vs 2.109 ms at 16K points on an A5000, 15.3 MiB vs 977.7 MiB peak at
+64K. README has the kernel variants that didn't work and the Nsight counters.
 
-<table>
-<tr>
-<td width="50%" valign="top">
+### [Java limit order book and tail-latency harness](https://github.com/georgezliao/Java-Trading-Engine)
+p99 10.0 µs → 0.5 µs at 1M msg/s, every variant required to match the baseline's
+output hash. The ~500 µs tail turned out to be a HashMap resize; the step near
+p99.8 is the 1 kHz timer interrupt.
 
-**[SPINN: Ion Trap Shape Optimization](https://github.com/ML4SCI/SPINN)**
-<br/><br/>
-A summer spent trying to make a PINN redesign Paul trap electrodes. PINNs are notoriously finicky to differentiate real improvements from improvement achieved via cheating. The README should document how I dealt with that. Research is still ongoing!
+### [TraceLens — per-process syscall and CPU-wait latency with eBPF](https://github.com/georgezliao/eBPF-Agent)
+Per-process histograms stay in the kernel. Always-on aggregation costs ~105 ns
+per read at ~0% agent CPU; shipping every event costs ~9× more at 500k reads/s,
+almost all of it the wakeup.
 
-`PINNs` `PDEs` `GSoC`
+### [SPINN — PINN ion-trap electrode optimization](https://github.com/ML4SCI/SPINN)
+GSoC 2026. PINNs for Paul-trap electrode geometry, and the checks that separate a
+real shape improvement from one the optimizer found by fitting the solution.
 
-</td>
-<td width="50%" valign="top">
+---
 
-**[TraceLens](https://github.com/georgezliao/eBPF-Agent)**
-<br/><br/>
-A Linux eBPF tool that shows how long syscalls take and how long threads wait for a CPU, per process. The latency histograms stay in the kernel, and individual calls are streamed for one process at a time.
+Other repos: [SkyPrint](https://www.skyprint.photo/) (live, flight climate
+impact incl. contrails) · [gravitational lensing PINNs](https://github.com/georgezliao/Gravitational-Lensing-PINNs)
+(physics losses didn't beat a data-only baseline) · [HerdLab](https://github.com/georgezliao/llm-trading-crowding)
+(multi-agent market sim, public-data observer) · [RL Tetris](https://github.com/georgezliao/rl-robot-tetris)
+(no learned policy has beaten the baselines yet)
 
-`Go` `C` `eBPF`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**[Fused CUDA for Higher-Order AD](https://github.com/georgezliao/Expanded-GPU-Optimization)**
-<br/><br/>
-Profiles the graph traversal, tensor materialization and kernel-launch costs of higher-order autodiff with Nsight Systems, then replaces them with a fused CUDA residual kernel.
-
-`CUDA` `C++` `PyTorch`
-
-</td>
-<td width="50%" valign="top">
-
-**[RL Robot Tetris](https://github.com/georgezliao/rl-robot-tetris)**
-<br/><br/>
-Compares agents that learn from rendered UI pixels with agents that get engineered state, along with reward shaping, action spaces, and search baselines like beam search and MCTS. Motivation is to learn more about RL environments and different reward systems.
-
-`Python` `RL` `CNNs`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**[Gravitational Lensing PINNs](https://github.com/georgezliao/Gravitational-Lensing-PINNs)**
-<br/><br/>
-Physics-informed neural networks for gravitational lens mass reconstruction. My PHYS 2600 final project.
-
-`Python` `PINNs` `Astrophysics`
-
-</td>
-<td width="50%" valign="top">
-
-**[SkyPrint](https://github.com/georgezliao/SkyPrint2)**
-<br/><br/>
-Shows the climate impact of flights, including contrails, using CoCiP contrail modeling and an airline scoring system. [Try it live](https://www.skyprint.photo/).
-
-`Next.js` `TypeScript` `Python`
-
-</td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
-
-**[Java Trading Engine](https://github.com/georgezliao/Java-Trading-Engine)**
-<br/><br/>
-A limit order book and tail-latency harness in Java. An allocation-free hot path and a lock-free SPSC ring took p99 from 10.0 µs to 0.5 µs at 1M msg/s, and every variant has to produce the same output hash as the baseline.
-
-`Java` `Low latency` `JMH`
-
-</td>
-</tr>
-</table>
-
+[resume] · [email]
 ---
 
 ## Tech Stack
