@@ -35,10 +35,10 @@ real shape improvement from one the optimizer found by fitting the solution.
 ---
 
 Other repos: [SkyPrint](https://www.skyprint.photo/) (live, flight climate
-impact incl. contrails) · [gravitational lensing PINNs](https://github.com/georgezliao/Gravitational-Lensing-PINNs)
-(physics losses didn't beat a data-only baseline) · [HerdLab](https://github.com/georgezliao/llm-trading-crowding)
-(multi-agent market sim, public-data observer) · [RL Tetris](https://github.com/georgezliao/rl-robot-tetris)
-(no learned policy has beaten the baselines yet)
+impact incl. contrails, really just an API integration project) · [gravitational lensing PINNs](https://github.com/georgezliao/Gravitational-Lensing-PINNs)
+(examined the shortcomings of PINNs in physics) · [HerdLab](https://github.com/georgezliao/llm-trading-crowding)
+(multi-agent market sim & public-data observer) · [RL Tetris](https://github.com/georgezliao/rl-robot-tetris)
+(trying to beat the baseline with policies)
 
 
 ## Tech Stack
