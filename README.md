@@ -8,6 +8,8 @@
 
 # George Liao
 
+Hello!
+Last summer I contributed to Google Summer of Code for ML4Science and interned at Brown's Dark Matter Lab. Below are my projects: 
 
 ---
 
