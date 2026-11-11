@@ -8,7 +8,6 @@
 
 # George Liao
 
-Brown University. GSoC 2026 with ML4SCI. [Google team matching — confirm]
 
 ---
 
