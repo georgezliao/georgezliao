@@ -25,7 +25,6 @@ class GeorgeLiao:
 
 
 
----
 
 ## What I'm Building Now
 
