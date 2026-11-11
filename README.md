@@ -14,7 +14,6 @@ class GeorgeLiao:
     interests = ["DL", "GPU performance", "RL", "systems"]
     stack     = ["Python", "PyTorch", "C/C++", "CUDA", "Go", "TypeScript", "Next.js"]
     summer_26 = "Google Summer of Code with ML4SCI"
-    tetris    = "bad at it, so i trained a robot to do it for me"
 ```
 
 <br/>
@@ -24,35 +23,7 @@ class GeorgeLiao:
 <tr>
 <td align="center" width="50%">
 
-### What I Work On
 
-</td>
-<td align="center" width="50%">
-
-### Highlights
-
-</td>
-</tr>
-<tr>
-<td>
-
-- **Physics-informed neural networks** for shape optimization and inverse problems
-- **GPU performance**, profiling with Nsight Systems and writing fused CUDA kernels
-- **Reinforcement learning** from pixels and from engineered state
-- **Linux tracing** with eBPF
-
-</td>
-<td>
-
-- **GSoC 2026** with ML4SCI, on electrode shape optimization for ion traps
-- **16.2×** lower field nonlinearity than an optimized circular reference on that project
-- **TraceLens**, per-process syscall and run-queue latency from eBPF
-- **SkyPrint**, a live contrail and aviation climate site
-
-</td>
-</tr>
-</table>
-</div>
 
 ---
 
