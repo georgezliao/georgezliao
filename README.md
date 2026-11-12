@@ -24,7 +24,7 @@ output hash. The ~500 µs tail turned out to be a HashMap resize; the step near
 p99.8 is the 1 kHz timer interrupt.
 
 ### [TraceLens — per-process syscall and CPU-wait latency with eBPF](https://github.com/georgezliao/eBPF-Agent)
-Per-process histograms stay in the kernel. Always-on aggregation costs ~105 ns
+Per-process histograms in kernel. Always-on aggregation costs ~105 ns
 per read at ~0% agent CPU; shipping every event costs ~9× more at 500k reads/s,
 almost all of it the wakeup.
 
