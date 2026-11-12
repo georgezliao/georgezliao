@@ -9,28 +9,21 @@
 # George Liao
 
 Hello! Generally, I am interested in all things ML Systems, Computational Physics, and Cloud.
-Last summer I contributed to Google Summer of Code for ML4Science and interned at Brown's Dark Matter Lab. Below are my projects: 
+Last summer I contributed to Google Summer of Code for ML4Science and interned at Brown's Dark Matter Lab working on data systems. Below are my projects: 
 
 ---
 
 ### [Fused CUDA kernels for higher-order autodiff](https://github.com/georgezliao/Expanded-GPU-Optimization)
-One fused kernel replaces the 94-launch autograd path for a PINN residual:
-0.131 ms vs 2.109 ms at 16K points on an A5000, 15.3 MiB vs 977.7 MiB peak at
-64K. README has the kernel variants that didn't work and the Nsight counters.
+My PINN work made me curious whether computing higher-order derivatives had to be so expensive, so I tried writing a fused CUDA kernel for the specific problem.
 
 ### [Java limit order book and tail-latency harness](https://github.com/georgezliao/Java-Trading-Engine)
-p99 10.0 µs → 0.5 µs at 1M msg/s, every variant required to match the baseline's
-output hash. The ~500 µs tail turned out to be a HashMap resize; the step near
-p99.8 is the 1 kHz timer interrupt.
+I wanted to learn what drives tail latency in a trading system and test how individual changes to the hot path affect it.
 
 ### [TraceLens — per-process syscall and CPU-wait latency with eBPF](https://github.com/georgezliao/eBPF-Agent)
-Per-process histograms in kernel. Always-on aggregation costs ~105 ns
-per read at ~0% agent CPU; shipping every event costs ~9× more at 500k reads/s,
-almost all of it the wakeup.
+I wanted to figure out what a process is waiting on when they slow down and that led to me to using eBPF to connect latency back to specific system activity.
 
 ### [SPINN — PINN ion-trap electrode optimization](https://github.com/ML4SCI/SPINN)
-GSoC 2026. PINNs for Paul-trap electrode geometry, and the checks that separate a
-real shape improvement from one the optimizer found by fitting the solution.
+GSoC 2026. PINNs for Paul-trap electrode geometry, used in quantum computing and more!
 
 ---
 
