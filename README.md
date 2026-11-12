@@ -8,7 +8,7 @@
 
 # George Liao
 
-Hello! Generally, I am interested in all things ML Systems, Computational Physics, and Cloud.
+Hello! Generally, I am interested in all things ML Systems and Cloud. 
 Last summer I contributed to Google Summer of Code for ML4Science and interned at Brown's Dark Matter Lab working on data systems. Below are my projects: 
 
 ---
